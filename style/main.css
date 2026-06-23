@@ -437,7 +437,7 @@ h2 {
 .property-card img.img-scale:hover {
   transform: scale(1.1);
 }
-.property-card button:hover i.heart-color {
+.property-card button:hover i.fa-heart {
   color: red;
 }
 .heart-bg {
