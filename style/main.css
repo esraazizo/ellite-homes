@@ -16,6 +16,21 @@ body {
   background-color: #a684ff;
 }
 /* navbar---- */
+.navbar-toggler{
+  border:none;
+}
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+.navbar-toggler .fa-xmark{
+  display: none;
+}
+.navbar-toggler[aria-expanded=true] .fa-xmark{
+  display: block;
+}
+.navbar-toggler[aria-expanded=true] span{
+  display: none;
+}
 .nav-link {
   font-size: 16px;
   font-weight: 500;
